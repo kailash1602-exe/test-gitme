@@ -11,3 +11,8 @@ CREATE TABLE Products {
     ProductName VARCHAR(50) NOT NULL,
     ProductPrice INT NOT NULL,
 }
+
+CREATE TABLE Campaign {
+    CampaignID INT PRIMARY KEY,
+    CampaignName VARCHAR(50)
+}
